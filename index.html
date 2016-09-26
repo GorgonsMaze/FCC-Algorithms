@@ -20,17 +20,11 @@
 <body>
 
 
-<!--<nav class="navbar navbar-default navbar-fixed-top">-->
-    <!--<div class="container">-->
-        <!--...-->
-    <!--</div>-->
-<!--</nav>-->
-
-
 <nav class="navbar navbar-inverse">
     <div class="container-fluid">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-2">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -44,7 +38,8 @@
                 <!--<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>-->
                 <li><a href="#">About Me</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Level<span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Level<span
+                            class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="#">Beginner</a></li>
                         <li><a href="#">Intermediate</a></li>
@@ -61,198 +56,529 @@
 
 <div class="jumbotron">
     <h1>FCC Algorithm Solutions</h1>
-    <p><small>By: Ian Arsenault</small></p>
-    <p><a href="https://github.com/GorgonsMaze/FCC-Algorithms" target="_blank" class="btn btn-primary btn-lg" id="repoBtn">Github Repository</a></p>
+    <p>
+        <small>By: Ian Arsenault</small>
+    </p>
+    <p><a href="https://github.com/GorgonsMaze/FCC-Algorithms" target="_blank" class="btn btn-primary btn-lg"
+          id="repoBtn">Github Repository</a></p>
 </div>
 
 
-<!--<h1>Heading 1</h1>-->
-<!--<h2>Heading 2</h2>-->
-<!--<h3>Heading 3</h3>-->
-<!--<h4>Heading 4</h4>-->
-<!--<h5>Heading 5</h5>-->
-<!--<h6>Heading 6</h6>-->
-<!--<p class="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>-->
-
-<!--<h2>Example body text</h2>-->
-<!--<p>Nullam quis risus eget <a href="#">urna mollis ornare</a> vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>-->
-<!--<p><small>This line of text is meant to be treated as fine print.</small></p>-->
-<!--<p>The following snippet of text is <strong>rendered as bold text</strong>.</p>-->
-<!--<p>The following snippet of text is <em>rendered as italicized text</em>.</p>-->
-<!--<p>An abbreviation of the word attribute is <abbr title="attribute">attr</abbr>.</p>-->
 <div id="wrap">
     <div class="container">
+
+        <!-- Beginner Algorithm Section -->
         <h2>Beginner</h2>
         <table class="table table-striped table-hover ">
             <thead>
             <tr class="warning">
                 <th>#</th>
-                <th>Column heading</th>
-                <th>Column heading</th>
-                <th>Column heading</th>
+                <th>Algorithms</th>
+                <th>Completed</th>
+                <th>Solution</th>
             </tr>
             </thead>
             <tbody>
             <tr>
                 <td>1</td>
-                <td>Column content</td>
-                <td>Column content</td>
-                <td>Column content</td>
+                <td>Reverse a String</td>
+                <td>June 19, 2016</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#reverseString">View Solution</a></td>
+                <!-- Reverse A String Modal -->
+                <div class="modal fade" id="reverseString" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                        aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title text-center" id="myModalLabel">Reverse a String</h4>
+                            </div>
+                            <div class="modal-body">
+                                <!-- Problem Overview -->
+                                <p><b>Overview:</b></p>
+                                <p>Reverse the provided string.</p>
+                                <p>You may need to turn the string into an array before you can reverse it.</p>
+                                <p>Your result must be a string.</p>
+                                <p> Helpful Tips - <i>Global String Object</i> + <code>String.prototype.split()</code>
+                                    + <code>Array.prototype.reverse()</code> + <code>Array.prototype.join()</code>&nbsp;&nbsp;&nbsp;
+                                </p>
+                                <hr/>
+                                <!-- Code -->
+                                <p><b>Solution:</b></p>
+                                <pre class="code-blocks prettyprint lang-js"><code>
+                                    function reverseString(str) {
+                                        var output;
+                                        output = str.split("").reverse().join("");
+                                        return output;
+                                    }
+
+                                    reverseString("hello"); // output  'olleh'
+                                </code></pre>
+                                <hr/>
+                                <!-- Output Expected -->
+                                <p><b>Output:</b></p>
+                                <p><code>reverseString("hello")</code> should return a string.</p>
+                                <p><code>reverseString("hello")</code> should become "olleh".</p>
+                                <p><code>reverseString("Howdy")</code> should become "ydwoH".</p>
+                                <p><code>reverseString("Greetings from Earth")</code> should return "htraE morf
+                                    sgniteerG".</p>
+
+                            </div>
+                            <div class="modal-footer">
+                                <ul class="pager">
+                                    <li class="disabled"><a href="#">Previous</a></li>
+                                    <li><a href="" data-toggle="modal" data-dismiss="modal" data-target="#factorialize">Next</a>
+                                    </li>
+                                    <li>
+                                        <button type="button" class="btn btn-default mod-closer" data-dismiss="modal">
+                                            Close
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </tr>
             <tr>
                 <td>2</td>
-                <td>Column content</td>
-                <td>Column content</td>
-                <td>Column content</td>
+                <td>Factorialize a Number</td>
+                <td>June 20, 2016</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#factorialize">View Solution</a></td>
+                <!-- Factorialize a Number Modal -->
+                <div class="modal fade" id="factorialize" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                        aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title text-center" id="myModalLabel">Factorialize a Number</h4>
+                            </div>
+                            <div class="modal-body">
+                                <!-- Problem Overview -->
+                                <p><b>Overview:</b></p>
+                                <p> Return the factorial of the provided integer.</p>
+                                <p>If the integer is represented with the letter n, a factorial is the product of all
+                                    positive integers less than or equal to n.</p>
+                                <p>Factorials are often represented with the shorthand notation n!</p>
+                                <p>For example: 5! = 1 * 2 * 3 * 4 * 5 = 120</p>
+                                <p>Helpful Tips - <i>Arithmetic Operators</i></p>
+                                <hr/>
+                                <!-- Code -->
+                                <p><b>Solution:</b></p>
+                                <pre class="code-blocks prettyprint lang-js"><code>
+                                    function factorialize(num) {
+                                        // If num is equal to 0 stop recursion
+                                        // and return 1
+                                        if (num === 0) {
+                                            return 1;
+                                        }
+                                        // This will run until num is equal to 0
+                                        return num * factorialize(num-1);
+                                    }
+
+                                    factorialize(10); // output 3628800
+                                </code></pre>
+                                <hr/>
+                                <!-- Output Expected -->
+                                <p><b>Output:</b></p>
+                                <p><code>factorialize(5)</code> should return a number.</p>
+                                <p><code>factorialize(5</code> should return 120.</p>
+                                <p><code>factorialize(10)</code> hould return 3628800.</p>
+                                <p><code>factorialize(20)</code> should return 2432902008176640000.</p>
+                                <p><code>factorialize(0)</code> should return 1.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <ul class="pager">
+                                    <li><a href="#" data-toggle="modal" data-dismiss="modal"
+                                           data-target="#reverseString">Previous</a></li>
+                                    <li><a href="#" data-toggle="modal" data-dismiss="modal" data-target="#palindrome">Next</a>
+                                    </li>
+                                    <li>
+                                        <button type="button" class="btn btn-default mod-closer" data-dismiss="modal">
+                                            Close
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </tr>
             <tr>
                 <td>3</td>
-                <td>Column content</td>
-                <td>Column content</td>
-                <td>Column content</td>
+                <td>Check for Palindromes</td>
+                <td>June 20, 2016</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#palindrome">View Solution</a></td>
+                <!-- Check for Palindromes Modal -->
+                <div class="modal fade" id="palindrome" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                        aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title text-center" id="myModalLabel">Check for Palindromes</h4>
+                            </div>
+                            <div class="modal-body">
+                                <!-- Problem Overview -->
+                                <p><b>Overview:</b></p>
+                                <p>Return true if the given string is a palindrome. Otherwise, return false.</p>
+                                <p> A palindrome is a word or sentence that's spelled the same way both forward and
+                                    backward, ignoring punctuation, case, and spacing.</p>
+                                <p>Note</p>
+                                <p>You'll need to remove all non-alphanumeric characters (punctuation, spaces and
+                                    symbols) and turn everything lower case in order to check for palindromes.</p>
+                                <p>We'll pass strings with varying formats, such as "racecar", "RaceCar", and "race CAR"
+                                    among others.</p>
+                                <p>We'll also pass strings with special symbols, such as "2A3*3a2", "2A3 3a2", and
+                                    "2_A3*3#A2".</p>
+                                <p> Helpful Tips - <code>String.prototype.replace()</code> + <code>String.prototype.toLowerCase()</code>
+                                </p>
+                                <hr/>
+                                <!-- Code -->
+                                <p><b>Solution:</b></p>
+                                <pre class="code-blocks prettyprint lang-js"><code>
+                                    function palindrome(str) {
+                                        var lower = str.replace(/\s|[,/:\\-]|[()]|[_]|[\.]/g, "").toLowerCase().trim();
+                                        var reversed = lower.split("").reverse().join("");
+                                        return lower === reversed;
+                                    }
+
+                                    palindrome("race car"); // output  true
+                                </code></pre>
+                                <hr/>
+                                <!-- Output Expected -->
+                                <p><b>Output:</b></p>
+                                <p><code>palindrome("eye")</code> should return a boolean.</p>
+                                <p><code>palindrome("eye")</code> should return true.</p>
+                                <p><code>palindrome("_eye")</code> should return true.</p>
+                                <p><code>palindrome("race car")</code> should return true.</p>
+                                <p><code>palindrome("not a palindrome")</code> should return false.</p>
+                                <p><code>palindrome("A man, a plan, a canal. Panama")</code> should return true.</p>
+                                <p><code>palindrome("never odd or even")</code> should return true.</p>
+                                <p><code>palindrome("nope")</code> should return false.</p>
+                                <p><code>palindrome("almostomla")</code> should return false.</p>
+                                <p><code>palindrome("My age is 0, 0 si ega ym.")</code> should return true.</p>
+                                <p><code>palindrome("1 eye for of 1 eye.")</code> should return false.</p>
+                                <p><code>palindrome("0_0 (: /-\ :) 0-0")</code> should return true.</p>
+                                <p><code>palindrome("five|\_/|four")</code> should return false.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <ul class="pager">
+                                    <li><a href="" data-toggle="modal" data-dismiss="modal" data-target="#factorialize">Previous</a>
+                                    </li>
+                                    <li><a href="" data-toggle="modal" data-dismiss="modal" data-target="#longestWord">Next</a>
+                                    </li>
+                                    <li>
+                                        <button type="button" class="btn btn-default mod-closer" data-dismiss="modal">
+                                            Close
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </tr>
             <tr>
                 <td>4</td>
-                <td>Column content</td>
-                <td>Column content</td>
-                <td>Column content</td>
+                <td>Find the Longest Word in a String</td>
+                <td>June 21, 2016</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#longestWord">View Solution</a></td>
             </tr>
             <tr>
                 <td>5</td>
-                <td>Column content</td>
-                <td>Column content</td>
-                <td>Column content</td>
+                <td>Title Case a Sentence</td>
+                <td>June 21, 2016</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#titleCase">View Solution</a></td>
             </tr>
             <tr>
                 <td>6</td>
-                <td>Column content</td>
-                <td>Column content</td>
-                <td>Column content</td>
+                <td>Return Largest Numbers in Arrays</td>
+                <td>June 22, 2016</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#largestNums">View Solution</a></td>
             </tr>
             <tr>
                 <td>7</td>
-                <td>Column content</td>
-                <td>Column content</td>
-                <td>Column content</td>
+                <td>Confirm the Ending</td>
+                <td>June 28, 2016</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#confirmEnd">View Solution</a></td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Truncate a string</td>
+                <td>June 28, 2016</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#truncateString">View Solution</a></td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Repeat a string repeat a string</td>
+                <td>June 29, 2016</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#repeatString">View Solution</a></td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Slasher Flick</td>
+                <td>June 29, 2016</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#slasherFlick">View Solution</a></td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Chunky Monkey</td>
+                <td>June 29, 2016</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#chunkyMonkey">View Solution</a></td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Falsy Bouncer</td>
+                <td>June 29, 2016</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#falsyBouncer">View Solution</a></td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Seek and Destroy</td>
+                <td>July 06, 2016</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#seekDestroy">View Solution</a></td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Mutations</td>
+                <td>July 06, 2016</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#mutations">View Solution</a></td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Where do I belong</td>
+                <td>July 07, 2016</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#belong">View Solution</a></td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>Caesars Cipher</td>
+                <td>.....</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#caesarCipher">View Solution</a></td>
             </tr>
             </tbody>
         </table>
 
 
+        <!-- Intermediate Algorithm Section -->
         <h2>Intermediate</h2>
         <table class="table table-striped table-hover ">
             <thead>
             <tr class="success">
                 <th>#</th>
-                <th>Column heading</th>
-                <th>Column heading</th>
-                <th>Column heading</th>
+                <th>Algorithms</th>
+                <th>Completed</th>
+                <th>Solution</th>
             </tr>
             </thead>
             <tbody>
             <tr>
                 <td>1</td>
-                <td>Column content</td>
-                <td>Column content</td>
-                <td>Column content</td>
+                <td>Sum All Numbers in a Range</td>
+                <td>...</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#sumAllNums">View Solution</a></td>
             </tr>
             <tr>
                 <td>2</td>
-                <td>Column content</td>
-                <td>Column content</td>
-                <td>Column content</td>
+                <td>Diff Two Arrays</td>
+                <td>...</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#diffArrays">View Solution</a></td>
             </tr>
             <tr>
                 <td>3</td>
-                <td>Column content</td>
-                <td>Column content</td>
-                <td>Column content</td>
+                <td>Roman Numeral Converter</td>
+                <td>...</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#romanNumeral">View Solution</a></td>
             </tr>
             <tr>
                 <td>4</td>
-                <td>Column content</td>
-                <td>Column content</td>
-                <td>Column content</td>
+                <td>Wherefore art thou</td>
+                <td>...</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#whereArtThou">View Solution</a></td>
             </tr>
             <tr>
                 <td>5</td>
-                <td>Column content</td>
-                <td>Column content</td>
-                <td>Column content</td>
+                <td>Search and Replace</td>
+                <td>...</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#searchReplace">View Solution</a></td>
             </tr>
             <tr>
                 <td>6</td>
-                <td>Column content</td>
-                <td>Column content</td>
-                <td>Column content</td>
+                <td>Pig Latin</td>
+                <td>...</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#pigLatin">View Solution</a></td>
             </tr>
             <tr>
                 <td>7</td>
-                <td>Column content</td>
-                <td>Column content</td>
-                <td>Column content</td>
+                <td>DNA Paring</td>
+                <td>...</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#dnaPairing">View Solution</a></td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Missing Letters</td>
+                <td>...</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#missingLetters">View Solution</a></td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Boo who</td>
+                <td>...</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#booWho">View Solution</a></td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Sorted Union</td>
+                <td>...</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#sortedUnion">View Solution</a></td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Converted HTML Entities</td>
+                <td>...</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#convertEntity">View Solution</a></td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Spinal Tap Case</td>
+                <td>...</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#spinalTap">View Solution</a></td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Sum All Odd Finonacci Numbers</td>
+                <td>...</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#fibonacci">View Solution</a></td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Sum All Primes</td>
+                <td>...</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#sumAllPrimes">View Solution</a></td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Smallest Common Multiple</td>
+                <td>...</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#smallCommonMultiple">View Solution</a>
+                </td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>Finders Keepers</td>
+                <td>.....</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#finderKeeper">View Solution</a></td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>Drop it</td>
+                <td>.....</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#dropIt">View Solution</a></td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>Steamroller</td>
+                <td>.....</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#steamRoller">View Solution</a></td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>Binary Agents</td>
+                <td>.....</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#binaryAgents">View Solution</a></td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>Everything Be True</td>
+                <td>.....</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#everythingBeTrue">View Solution</a>
+                </td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>Arguments Optional</td>
+                <td>.....</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#argumentOptional">View Solution</a>
+                </td>
             </tr>
             </tbody>
         </table>
 
 
+        <!-- Advanced Algorithm Section -->
         <h2>Advanced</h2>
         <table class="table table-striped table-hover ">
             <thead>
             <tr class="info">
                 <th>#</th>
-                <th>Column heading</th>
-                <th>Column heading</th>
-                <th>Column heading</th>
+                <th>Algorithms</th>
+                <th>Completed</th>
+                <th>Solution</th>
             </tr>
             </thead>
             <tbody>
             <tr>
                 <td>1</td>
-                <td>Column content</td>
-                <td>Column content</td>
-                <td>Column content</td>
+                <td>Validate US Telephone Numbers</td>
+                <td>...</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#validTelephone">View Solution</a></td>
             </tr>
             <tr class="">
                 <td>2</td>
-                <td>Column content</td>
-                <td>Column content</td>
-                <td>Column content</td>
+                <td>Symmetric Difference</td>
+                <td>...</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#symmetricDiff">View Solution</a></td>
             </tr>
             <tr class="">
                 <td>3</td>
-                <td>Column content</td>
-                <td>Column content</td>
-                <td>Column content</td>
+                <td>Exact Change</td>
+                <td>...</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#exactChange">View Solution</a></td>
             </tr>
             <tr class="">
                 <td>4</td>
-                <td>Column content</td>
-                <td>Column content</td>
-                <td>Column content</td>
+                <td>Inventory Update</td>
+                <td>...</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#inventoryUpdate">View Solution</a>
+                </td>
             </tr>
             <tr>
                 <td>5</td>
-                <td>Column content</td>
-                <td>Column content</td>
-                <td>Column content</td>
+                <td>No repeats please</td>
+                <td>...</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#noRepeats">View Solution</a></td>
             </tr>
             <tr>
                 <td>6</td>
-                <td>Column content</td>
-                <td>Column content</td>
-                <td>Column content</td>
+                <td>Friendly Date Ranges</td>
+                <td>...</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#dateRanger">View Solution</a></td>
             </tr>
             <tr>
                 <td>7</td>
-                <td>Column content</td>
-                <td>Column content</td>
-                <td>Column content</td>
+                <td>Make a Person</td>
+                <td>...</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#makePerson">View Solution</a></td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Map the Debris</td>
+                <td>...</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#mapDebris">View Solution</a></td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Pairwise</td>
+                <td>...</td>
+                <td><a href="" class="btn-link" data-toggle="modal" data-target="#pairwise">View Solution</a></td>
             </tr>
             </tbody>
         </table>
-
     </div>
+
+    <!-- FOOTER -->
     <div id="footer">
         <div class="container">
             <div class="text-center">
@@ -264,12 +590,11 @@
 </div>
 
 
-
-
-
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="bootstrapjs/bootstrap.min.js"></script>
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+<script type="text/javascript" src="bootstrapjs/script.js"></script>
 </body>
 </html>

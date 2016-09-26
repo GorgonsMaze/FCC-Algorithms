@@ -3,6 +3,12 @@ A collection of my solutions to Free Code Camps Front-End Algorithm Questions
 
 ![Image](http://i.imgur.com/J3lLfcV.png)
 
+## To-Do's [Website]
+- [ ] Work on indentation of <pre><code> display 
+- [ ] Update all completed solutions to tables 
+- [ ] Fix Website layout + Styling 
+- [ ] Update all overview and output to solved problems
+
 ## Completed (Basic Algorithm Scripting)
 - [x] Reverse a String	Jun 19, 2016	
 - [x] Factorialize a Number	Jun 20, 2016	
@@ -21,6 +27,7 @@ A collection of my solutions to Free Code Camps Front-End Algorithm Questions
 - [x] Where do I belong  Jul 07, 2016
 - [ ] Caesars Cipher
 
-## To-Do
+## To-Do [Algorithms]
 - [ ] Intermediate Algorithm Scripting
 - [ ] Advanced Algorithm Scripting
+
