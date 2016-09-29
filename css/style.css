@@ -10,17 +10,64 @@ body {
     /* Negative indent footer by it's height */
     margin: 0 auto -60px;
 }
-
+/** Repository Button in Jumbotron */
 #repoBtn {
     padding: 13px 21px;
     font-size: 14px;
     line-height: 1.3333333;
     border-radius: 89px;
 }
-
+/* Jumbotron Section */
 .jumbotron {
     padding: 48px!important;
 }
+
+/* Modal Styling */
+.modal-dialog {
+    width: 98.8% !important;
+    height:98.8%;
+    padding: 0;
+    margin: 10px;
+}
+
+.modal-content {
+    height:98.9%;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;
+}
+
+.modal-body {
+    height: 80vh;
+    overflow-y: auto!important;
+}
+
+/* Modal Button Closer */
+.mod-closer {
+    float: right;
+}
+
+.pager .disabled>a {
+    background-color: #95d4c7;
+}
+
+/** Pre Code Block Styling **/
+.code-blocks {
+    white-space: pre-wrap;
+}
+
+.prettyprint {
+    white-space: pre-wrap;
+}
+
+/** Changes the color and background of code element
+    but not the code elements inside a pre element */
+p code:not(pre) {
+    color: #253ec7 !important;
+    background-color: #f3f3f3 !important;
+}
+
+
 
 /* Sticky Footer */
 #footer {
