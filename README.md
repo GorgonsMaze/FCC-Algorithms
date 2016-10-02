@@ -9,6 +9,16 @@ A collection of my solutions to Free Code Camps Front-End Algorithm Questions
 - [ ] Fix Website layout + Styling 
 - [ ] Update all overview and output to solved problems
 
+
+## To-Do [Algorithms]
+- [ ] Intermediate Algorithm Scripting
+- [ ] Advanced Algorithm Scripting
+
+
+## Completed (Intermediate Algorithm Scripting)
+- [x] Sum All Numbers in a Range Sep 29, 2016
+- [x] Diff Two Arrays Sep 29, 2016
+
 ## Completed (Basic Algorithm Scripting)
 - [x] Reverse a String	Jun 19, 2016	
 - [x] Factorialize a Number	Jun 20, 2016	
@@ -25,9 +35,4 @@ A collection of my solutions to Free Code Camps Front-End Algorithm Questions
 - [x] Seek and Destroy	Jul 06, 2016	
 - [x] Mutations	Jul 06, 2016	
 - [x] Where do I belong  Jul 07, 2016
-- [ ] Caesars Cipher
-
-## To-Do [Algorithms]
-- [ ] Intermediate Algorithm Scripting
-- [ ] Advanced Algorithm Scripting
-
+- [x] Caesars Cipher
