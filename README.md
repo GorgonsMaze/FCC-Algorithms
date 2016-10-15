@@ -8,6 +8,7 @@ A collection of my solutions to Free Code Camps Front-End Algorithm Questions
 - [ ] Update all completed solutions to tables 
 - [ ] Fix Website layout + Styling 
 - [ ] Update all overview and output to solved problems
+- [ ] Add scrollspy to each section
 
 
 ## To-Do [Algorithms]
@@ -18,6 +19,8 @@ A collection of my solutions to Free Code Camps Front-End Algorithm Questions
 ## Completed (Intermediate Algorithm Scripting)
 - [x] Sum All Numbers in a Range Sep 29, 2016
 - [x] Diff Two Arrays Sep 29, 2016
+- [x] Spinal Tap Case Oct 06, 2016
+- [x] Sum All Odd Fibonacci Numbers Oct 14, 2016
 
 ## Completed (Basic Algorithm Scripting)
 - [x] Reverse a String	Jun 19, 2016	
@@ -35,4 +38,4 @@ A collection of my solutions to Free Code Camps Front-End Algorithm Questions
 - [x] Seek and Destroy	Jul 06, 2016	
 - [x] Mutations	Jul 06, 2016	
 - [x] Where do I belong  Jul 07, 2016
-- [x] Caesars Cipher
+- [x] Caesars Cipher Oct 02, 2016
