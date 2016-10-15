@@ -33,11 +33,10 @@ function sumFibs(num) {
 
         currentNumber += previousNumber;
         previousNumber = currentNumber - previousNumber;
-
-
-
     }
+
     return oddSum;
+
 }
 
 sumFibs(4);
