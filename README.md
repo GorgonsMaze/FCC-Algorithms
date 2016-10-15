@@ -8,6 +8,7 @@ A collection of my solutions to Free Code Camps Front-End Algorithm Questions
 - [ ] Update all completed solutions to tables 
 - [ ] Fix Website layout + Styling 
 - [ ] Update all overview and output to solved problems
+- [ ] Add scrollspy to each section
 
 
 ## To-Do [Algorithms]
