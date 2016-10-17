@@ -21,6 +21,7 @@ A collection of my solutions to Free Code Camps Front-End Algorithm Questions
 - [x] Diff Two Arrays Sep 29, 2016
 - [x] Spinal Tap Case Oct 06, 2016
 - [x] Sum All Odd Fibonacci Numbers Oct 14, 2016
+- [x] Search and Replace Oct 17, 2016
 
 ## Completed (Basic Algorithm Scripting)
 - [x] Reverse a String	Jun 19, 2016	
