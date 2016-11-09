@@ -22,6 +22,8 @@ A collection of my solutions to Free Code Camps Front-End Algorithm Questions
 - [x] Spinal Tap Case Oct 06, 2016
 - [x] Sum All Odd Fibonacci Numbers Oct 14, 2016
 - [x] Search and Replace Oct 17, 2016
+- [x] Sum All Primes Nov 4, 2016
+- [x] Pig Latin Nov 8, 2016
 
 ## Completed (Basic Algorithm Scripting)
 - [x] Reverse a String	Jun 19, 2016	
