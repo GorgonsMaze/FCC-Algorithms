@@ -16,11 +16,9 @@
  */
 
 function repeatStringNumTimes(str, num) {
-    var repeat;
     /* if num is positive - string is repeated x times
      *  else it's string is returned empty */
-    repeat = ((num > 0) ? str.repeat(num) : "");
-    return repeat;
+    return ((num > 0) ? str.repeat(num) : "");
 }
 
-repeatStringNumTimes("abc", 3); // Output 'abcabcabc'
+console.log(repeatStringNumTimes("abc", 3)); // Output 'abcabcabc'

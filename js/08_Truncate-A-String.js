@@ -17,14 +17,12 @@ function truncateString(str, num) {
 
     if (str.length > num) {
         trun = str.slice(0, num-3) + "...";
-
     }
     else if (str.length <= num) {
         trun = str;
     }
     if (num <= 3) {
         trun = str.slice(0 , num) + "...";
-
     }
 
     return trun;

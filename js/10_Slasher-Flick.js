@@ -16,10 +16,7 @@
  */
 
 function slasher(arr, howMany) {
-    var chopped;
-        /* splice(howMany) gets rid of everything before that index */
-    chopped=  arr.splice(howMany);
-    return chopped;
+    return arr.splice(howMany);
 }
 
-slasher([1, 2, 3], 2); // output [3]
+console.log(slasher([1, 2, 3], 2)); // output [3]

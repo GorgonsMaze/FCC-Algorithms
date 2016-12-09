@@ -16,7 +16,6 @@
 function largestOfFour(arr) {
     var greatest = []; // Empty array to store greatest numbers from each sub array
 
-    // Loop or iterate through array
     for (var i = 0; i < arr.length; i++) {
         var maximum = -Infinity; // works for negative numbers
         // Iterate through each sub array
