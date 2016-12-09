@@ -21,9 +21,7 @@
  */
 
 function confirmEnding(str, target) {
-    var stuf = str.substr(str.length -(target.length));
-
-    return stuf === target;
+    return target === str.substr(str.length -(target.length));
 }
 
-confirmEnding("Bastian", "n"); // Output true
+console.log(confirmEnding("Bastian", "n")); // Output true

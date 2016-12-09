@@ -3,14 +3,6 @@ A collection of my solutions to Free Code Camps Front-End Algorithm Questions
 
 ![Image](http://i.imgur.com/J3lLfcV.png)
 
-## To-Do's [Website]
-- [ ] Work on indentation of <pre><code> display 
-- [ ] Update all completed solutions to tables 
-- [ ] Fix Website layout + Styling 
-- [ ] Update all overview and output to solved problems
-- [ ] Add scrollspy to each section
-
-
 ## To-Do [Algorithms]
 - [ ] Intermediate Algorithm Scripting
 - [ ] Advanced Algorithm Scripting
@@ -24,6 +16,7 @@ A collection of my solutions to Free Code Camps Front-End Algorithm Questions
 - [x] Search and Replace Oct 17, 2016
 - [x] Sum All Primes Nov 4, 2016
 - [x] Pig Latin Nov 8, 2016
+- [x] Wherefor Art Thou Dec 8, 2016
 
 ## Completed (Basic Algorithm Scripting)
 - [x] Reverse a String	Jun 19, 2016	

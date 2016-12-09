@@ -15,9 +15,7 @@
  */
 
 function reverseString(str) {
-    var output;
-    output = str.split("").reverse().join("");
-    return output;
+    return str.split("").reverse().join("");
 }
 
-reverseString("hello"); // output  'olleh'
+console.log(reverseString("hello")); // output  'olleh'

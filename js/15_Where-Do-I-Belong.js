@@ -30,7 +30,6 @@ function getIndexToIns(arr, num) {
         return a -b;
     });
 
-    // Loop through the array
     for (var i =0; i< sortedArr.length; i++) {
         // If num is less than/equal to index of sorted array - get index
         if(num <= sortedArr[i]) {
