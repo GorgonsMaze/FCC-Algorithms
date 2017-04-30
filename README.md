@@ -17,6 +17,7 @@ A collection of my solutions to Free Code Camps Front-End Algorithm Questions
 - [x] Sum All Primes Nov 4, 2016
 - [x] Pig Latin Nov 8, 2016
 - [x] Wherefor Art Thou Dec 8, 2016
+- [x] DNA Pairing Apr 30, 2017
 
 ## Completed (Basic Algorithm Scripting)
 - [x] Reverse a String	Jun 19, 2016	
