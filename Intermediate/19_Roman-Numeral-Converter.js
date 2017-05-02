@@ -1,9 +1,6 @@
 /** Roman Numeral Converter
  *  Convert the given number into a roman numeral.
- */
 
-
-/**
  if a symbol appears after a larger symbol it is added
 
  Example: VI = V + I = 5 + 1 = 6
@@ -16,9 +13,46 @@
 
  **/
 
-// Method to take number and length of number
-// and assign place values
-// ex: 256 becomes 200, 50, 6
+function convertToRoman(num) {
+    var romanNumeral = '';
+    var romanNumeralObj = [
+        {d: 1000, r: "M"},
+        {d: 900, r: "CM"},
+        {d: 500, r: "D"},
+        {d: 400, r: "CD"},
+        {d: 100, r: "C"},
+        {d: 90, r: "XC"},
+        {d: 50, r: "L"},
+        {d: 40, r: "XL"},
+        {d: 10, r: "X"},
+        {d: 9, r: "IX"},
+        {d: 5, r: "V"},
+        {d: 4, r: "IV"},
+        {d: 1, r: "I"}
+    ]
+
+
+    for (var i = 0; i < romanNumeralObj.length; i++) {
+        while (romanNumeralObj[i].d <= num) {
+
+            romanNumeral += romanNumeralObj[i].r;
+            num -= romanNumeralObj[i].d;
+
+        }
+    }
+
+
+    return romanNumeral;
+
+
+}
+
+console.log(convertToRoman(32));
+
+
+/********* First Attempt **********/
+
+
 function getPlacesValue(numToCheck) {
     var digits = numToCheck.toString();
     var length = digits.length;
@@ -31,12 +65,7 @@ function getPlacesValue(numToCheck) {
     return placeValueArray;
 }
 
-function convertToRoman(num) {
-
-// I would start with the highest (M if doing roman numerals) and count how many you have, and the remainder.
-//     var year = 1979;
-//     var howManyMs = Math.floor(year / 1000);
-//     var remainder = year % 1000;
+function convertToRoman2(num) {
 
     var romanNumeralArray = [];
     var romanNumeralObj = {
@@ -64,5 +93,4 @@ function convertToRoman(num) {
 
 }
 
-
-console.log(convertToRoman(3999));
+convertToRoman2(3999);
