@@ -19,7 +19,7 @@ A collection of my solutions to Free Code Camps Front-End Algorithm Questions
 - [x] Wherefor Art Thou Dec 8, 2016
 - [x] DNA Pairing Apr 30, 2017
 - [x] Boo Who Apr 30, 2017
-- [ ] Roman Numeral Converter Mar (In Progress)
+- [x] Roman Numeral Converter Mar 2, 2017
 
 ## Completed (Basic Algorithm Scripting)
 - [x] Reverse a String	Jun 19, 2016	
