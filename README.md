@@ -20,6 +20,7 @@ A collection of my solutions to Free Code Camps Front-End Algorithm Questions
 - [x] DNA Pairing Apr 30, 2017
 - [x] Boo Who Apr 30, 2017
 - [x] Roman Numeral Converter Mar 2, 2017
+- [x] Missing Letters Mar 5, 2017
 
 ## Completed (Basic Algorithm Scripting)
 - [x] Reverse a String	Jun 19, 2016	
