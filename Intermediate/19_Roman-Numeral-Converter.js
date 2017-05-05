@@ -29,7 +29,7 @@ function convertToRoman(num) {
         {d: 5, r: "V"},
         {d: 4, r: "IV"},
         {d: 1, r: "I"}
-    ]
+    ];
 
 
     for (var i = 0; i < romanNumeralObj.length; i++) {
