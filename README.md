@@ -31,7 +31,7 @@ A collection of my solutions to Free Code Camps Front-End Algorithm Questions
 - [x] Return Largest Numbers in Arrays	Jun 22, 2016	
 - [x] Confirm the Ending	Jun 28, 2016	
 - [x] Truncate a string	Jun 28, 2016	
-- [x] Repeat a string repeat a string	
+- [x] Repeat a string repeat a string Jun 29, 2016
 - [x] Slasher Flick	Jun 29, 2016	
 - [x] Chunky Monkey	Jun 29, 2016	
 - [x] Falsy Bouncer	Jun 29, 2016	
