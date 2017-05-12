@@ -4,11 +4,11 @@ A collection of my solutions to Free Code Camps Front-End Algorithm Questions
 ![Image](http://i.imgur.com/J3lLfcV.png)
 
 ## To-Do [Algorithms]
-- [ ] Intermediate Algorithm Scripting
-- [ ] Advanced Algorithm Scripting
+- [ ] Intermediate Algorithm Scripting [12/21]
+- [ ] Advanced Algorithm Scripting [0/9]
 
 
-## Completed (Intermediate Algorithm Scripting)
+## Intermediate Algorithm Scripting
 - [x] Sum All Numbers in a Range Sep 29, 2016
 - [x] Diff Two Arrays Sep 29, 2016
 - [x] Spinal Tap Case Oct 06, 2016
@@ -22,7 +22,7 @@ A collection of my solutions to Free Code Camps Front-End Algorithm Questions
 - [x] Roman Numeral Converter Mar 2, 2017
 - [x] Missing Letters Mar 5, 2017
 
-## Completed (Basic Algorithm Scripting)
+## Basic Algorithm Scripting
 - [x] Reverse a String	Jun 19, 2016	
 - [x] Factorialize a Number	Jun 20, 2016	
 - [x] Check for Palindromes	Jun 20, 2016	
