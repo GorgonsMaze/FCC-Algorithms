@@ -21,6 +21,7 @@ A collection of my solutions to Free Code Camps Front-End Algorithm Questions
 - [x] Boo Who Apr 30, 2017
 - [x] Roman Numeral Converter Mar 2, 2017
 - [x] Missing Letters Mar 5, 2017
+- [x] Sorted Union June  6, 2017
 
 ## Basic Algorithm Scripting
 - [x] Reverse a String	Jun 19, 2016	
