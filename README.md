@@ -23,6 +23,7 @@ A collection of my solutions to Free Code Camps Front-End Algorithm Questions
 - [x] Missing Letters Mar 5, 2017
 - [x] Sorted Union June  6, 2017
 - [x] Convert HTML Entities June 7, 2017
+- [ ] Smallest Common Multiple ......
 
 ## Basic Algorithm Scripting
 - [x] Reverse a String	Jun 19, 2016	
