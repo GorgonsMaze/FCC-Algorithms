@@ -1,7 +1,4 @@
 /**
- *
- * WIP
- *
  * Convert HTML Entities
  *
  * Convert the characters &, <, >, " (double quote), and ' (apostrophe),
