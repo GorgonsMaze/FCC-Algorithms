@@ -24,6 +24,7 @@ A collection of my solutions to Free Code Camps Front-End Algorithm Questions
 - [x] Sorted Union June  6, 2017
 - [x] Convert HTML Entities June 7, 2017
 - [ ] Smallest Common Multiple ......
+- [x] Drop It Sep 26, 2017
 
 ## Basic Algorithm Scripting
 - [x] Reverse a String	Jun 19, 2016	
