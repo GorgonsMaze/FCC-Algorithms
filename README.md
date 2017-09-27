@@ -4,7 +4,7 @@ A collection of my solutions to Free Code Camps Front-End Algorithm Questions
 ![Image](http://i.imgur.com/J3lLfcV.png)
 
 ## To-Do [Algorithms]
-- [ ] Intermediate Algorithm Scripting [12/21]
+- [ ] Intermediate Algorithm Scripting [15/21]
 - [ ] Advanced Algorithm Scripting [0/9]
 
 
