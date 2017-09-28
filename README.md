@@ -4,7 +4,7 @@ A collection of my solutions to Free Code Camps Front-End Algorithm Questions
 ![Image](http://i.imgur.com/J3lLfcV.png)
 
 ## To-Do [Algorithms]
-- [ ] Intermediate Algorithm Scripting [12/21]
+- [ ] Intermediate Algorithm Scripting [17/21]
 - [ ] Advanced Algorithm Scripting [0/9]
 
 
@@ -24,6 +24,9 @@ A collection of my solutions to Free Code Camps Front-End Algorithm Questions
 - [x] Sorted Union June  6, 2017
 - [x] Convert HTML Entities June 7, 2017
 - [ ] Smallest Common Multiple ......
+- [x] Drop It Sep 26, 2017
+- [x] Steamroller Sep 27, 2017
+- [x] Binary Agent Sep 28, 2017
 
 ## Basic Algorithm Scripting
 - [x] Reverse a String	Jun 19, 2016	
