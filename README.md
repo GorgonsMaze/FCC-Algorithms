@@ -25,6 +25,8 @@ A collection of my solutions to Free Code Camps Front-End Algorithm Questions
 - [x] Convert HTML Entities June 7, 2017
 - [ ] Smallest Common Multiple ......
 - [x] Drop It Sep 26, 2017
+- [x] Steamroller Sep 27, 2017
+- [x] Binary Agent Sep 28, 2017
 
 ## Basic Algorithm Scripting
 - [x] Reverse a String	Jun 19, 2016	
